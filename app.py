@@ -22,7 +22,7 @@ scaler = pickle.load(open("scaler.pkl", "rb"))
 # -------------------------------------------------
 # LOAD DATA
 # -------------------------------------------------
-df = pd.read_csv("cleaned_online_retail.csv")
+df = pd.read_csv("cleaned_online_retail_sample.csv")
 
 # Create TotalAmount if not already present
 if "TotalAmount" not in df.columns:
